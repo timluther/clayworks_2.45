@@ -1,0 +1,31 @@
+^uClayWorks (c) notice^u
+
+Clayworks is free, just about.  If you make a tonne of money
+out of an object you created in this package (which to be
+honest is about as likely as pink elephants being elected to
+run Neath council) then you can give me a huge wad of your
+money as well.
+
+Clayworks is however, my copyright and you may not sell or
+modify the program at all.
+
+The version of Clay you have here is the latest version of the
+old 16bit DOS version. I am currently working on 32bit software
+for both DOS and windows. Clayworks may reappear as a new
+sparkling application or I may just write a game with the 3d
+code I'm working on.
+
+To keep up to date with my everchanging whims, look at
+http://members.aol.com/luther2000
+
+For now, there is an excelent low-cost 3d modeller available
+from Themekit. This package is really quite amazing and if you
+liked Clayworks, you really should give it a look at:
+http://www.themekit.com
+
+My email address is:
+Luther2000@aol.com
+
+Enjoy...
+
+

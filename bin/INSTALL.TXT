@@ -1,0 +1,22 @@
+To install clayworks correctly you specify two environment variables in
+your autoexec.bat file.
+
+  Type edit \autoexec.bat and you should be in a position to edit the 
+file in question. To avoid confusion (if you know better then ignore), 
+add the following two lines to the top or bottom of the text:
+(assuming ClayWorks is in the directory 'c:\clay\' -change as appropriate 
+to the location on your machine)
+
+
+SET TWIN_FONTDIR=c:\clay\sansf16b.fnt
+SET CLAY_DIR=c:\clay
+
+Clay's font is specified in the first line -change this to any of the 
+available font files in the clay directory if you get bored with that font.
+The CLAY_DIR varaible just lets clay know where it can find the '.txt' files
+included in the zip file.
+
+
+if you have any problems, mail me at 
+
+luther2000@aol.com

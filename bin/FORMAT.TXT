@@ -1,0 +1,59 @@
+ClayWorks ShareWare '.3d' file format:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This is a simple binary file format but please note: The floating point
+values are Turbo Pascal real's. If this differs from your complier then
+you may have to make a conversion to the numbers.
+
+the first 3 words of the file are thus:
+
+No_of_points (2 bytes)
+No_of_joins (2 bytes)
+No_of_Polygons (2 bytes)
+
+The next block is the 'points' block which is an array of this record
+
+Vector=
+  x,y,z:pascal real
+end
+
+with 'no of points' entries.
+
+The second block is of this record
+
+Join
+  from,to:word (2 bytes)
+end
+
+which is a reference to the points list with indexes starting from 0.
+This has 'no of joins' entries.
+
+The last block is the polygons list. The polygon structure is thus:
+
+polygon=
+  number_of_sides:byte
+  point_references:array[0..3] of word (2 bytes each)
+  colour:byte
+  DoubleSided:boolean
+end
+
+At the moment 'number_of_sides' can not exceed a value of 4.
+'point_references' refers to the point list in much the same way
+as the joins do. Polygons are all closed, there will be changes to this
+format.
+This list has 'No_of_polygons' entries.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Future changes to this format are inevitable -I only give the format
+away so that you can use the objects in your own programs.
+
+This format will include a texture 'palette' to which references are made
+by the polygons. The file will also include a Version header.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+For more info, mail me at:
+
+Luther2000@aol.com
+
+(c) T.lewis 1995.

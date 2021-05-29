@@ -1,0 +1,309 @@
+^UClayWorks on-line help.^U
+
+^UBasic Editor Commands: Overview^U
+
+Your toolbox is to the left hand side of the screen.
+These tools are for drawing and modification.
+Their names, from the top to bottom, left to right
+are as follows:
+
+^USelect^U
+^USquare^U
+^UCube^U
+^USingle Vertex^U
+^USketch Polygon^U
+^UCone^U
+^UCircle^U
+^UCylinder^U
+^USphere^U
+^URotated form (lathe)^U
+^UGrid^U
+^UText^U
+
+Note that you can also select these via the
+'draw' menu.
+
+Below them are several tools that are mostly to do
+with display, their names are as follows:
+
+^UZoom out^U
+^UZoom in^U
+^UUndo^U
+^UGrid lock on/off^U
+^UView all/just selected verticies^U
+^UErase object^U
+
+Below that array of buttons, is one called ^Upoly^U
+this open a dialog box that allows you to change
+the colour and properties of selected polygons.
+
+And yet further down to the bottom is the rotation
+gadget that allows you to rotate the 3d view
+(you can do this by clicking and draging with both
+mouse buttons pressed in the 3d view as well)
+
+At the bottom of the screen is the current x,y,z
+position of the 3d cursor.
+
+^UOther important features^U
+^UThe cursor^U
+Click the mouse in any of the 2d views with the
+right button will reposition the 3d cursor; This
+is a multipurpose device and I shall be describing
+it's uses as we come to them.
+^UZoom and Pan in the 2d views^U
+you can pan quickly, using the mouse in the 2d views
+by holding down ^bshift^b and moving the mouse.
+you can zoom by holding ^bshift^b and ^bctrl^b together
+and moving the mouse up and down.
+
+^UBasic Editor Commands: Detailed Descriptions^U
+
+^USelect^U
+
+This tool is very important to object construction;
+without selecting vertices, you can't modify the
+object in anyway.
+  To use the select tool, you must have already
+draw a shape (see the object creation tools after
+this section); To select a group of verticies, simply
+drag a box over an area containing some vertices. A
+red bounding box will then appear and using this
+bounding box, you can stretch and move this by
+clicking on the side gadgets. Clicking inside the
+selection box simply moves it. If you hold down
+^bshift^b after you have clicked on one of the resize
+gadgets and the bounding box will resize around it's
+centre.
+  There is also a rotate tool; for this, click on
+the button to the right of the compass arrow. You
+can rotate by clicking inside the bounding box (note
+the absence of any resize gadgets now) and moving
+the mouse left and right. The centre of rotation is
+the ^b3d cursor^b discused earlier.
+  When you are draging the box to make a new selection
+you can also subtract from or add to the current
+selection by holding down ^Bctrl^B and ^Balt^B
+respectivly.
+  When you are draging a selection around, either by
+stretching, moving or rotating it, you can make a
+copy of that selection by clicking the right button
+at the same time (you drag with the left button).
+If you want to make an extrution, you can click on
+the little cube icon at the top of the screen,
+to the right of the translate/stretch icon and
+the rotate icon and click the right button as you
+would when copying. The box with the little number
+in it further to the right specifies how many
+copies you will create when either extruding or
+copying.
+
+^USquare^U
+Simply drag a square out using the left mouse
+button. The ^b3d cursor^b makes up the position
+on the missing axis.
+
+^UCube^U
+Use the same method as used to draw a square
+
+^USingle Vertex^U
+This will create a single vertex with no
+polygon connections at the mouse position when
+the left button is clicked.
+
+^USketch Polygon^U
+To use this tool, click a starting point and then
+continue clicking at various points. When you want
+to accept the polygon, either click in the vacinity
+of the first point for a closed polygon or press
+space for an open polyline.
+
+^UCircle^U
+The method for using this function is similar to
+that for the square, only the circle is drawn
+from it's centre.
+The number box labled 'number of segments'
+controls the amount of sides the circle can have;
+actually it's more of a regular polygon. It can
+have from 3 to 30 points.
+
+^UCylinder^U
+Same method as above.
+
+^UCone^U
+Same method as above.
+
+^USphere^U
+Same method as above only you can have longitudanal
+and lateral segment counts as well.
+
+^URotated form (lathe)^U
+This tool requires a selection of vertices to work.
+It basically sweeps a form through 360 degrees around
+an axis (see the x,y,z buttons to the top of the
+screen). Due to a slight (and temporary) oversight,
+the centre of rotation is not defined by the 3d
+cursor but by the 0,0,0 axis in each direction.
+As a small example, try building a torus. First,
+draw a circle to the right of the central axis in
+the top-left view and then select it's vertices.
+Now click the 'Y' button at the top of the screen.
+Voila! a torus. Note that the originally selected
+points are seperate and you can (and should) drag
+them out of the rotated form.
+The 'number of segments' defines the amount
+of sections the rotated for will have.
+
+^UGrid^U
+
+This creates a plainar grid. There are two number
+boxes that define the amount of x and y segments
+and also a drop down menu defining the mode of
+creation. These modes include flat, sine wave
+and heightmap. To use the height map, load a
+pcx file from the 'load map' button.
+The checked button merely alternates the colours
+on the grid between the background colour and the
+foreground colour (defined in the 'poly' dialog,
+see later)
+
+^UText^U
+You will need to load in a borland ^b.chr^b vector
+font. Type what you want in the text box at the top
+of the screen and then click in one on the 2d windows
+to paste it. Be warned, this eats up vertices and you
+can only have so many in the 16bit versions of
+claywork
+
+^UZoom in/out^U
+Zoom in and out of the 2d views. + and - have the
+same effect.
+
+^UGridlock on/off^U
+Switches the gridlock feature on or off. This is
+not perfect by anymeans. The grid should be a lot
+more accurate but it's the best you'll get in this
+version.
+
+^UUndo^U
+This undo feature is not perfect either, be warned
+that if you have solid polygons displayed in the 3d
+view then this feature will misbehave; so keep it
+wireframe when using it.
+
+^UView all/just selected verticies^U
+If this is one then only the selected vertices will
+be shown; you can not drag them about if they are not
+visible so this has some uses and makes the display
+easier to see.
+
+^UErase object^U
+Does just that.
+
+^UPoly/Material Dialog box^U
+
+This dialog box allows you to change the colour and
+attributes of the selected polygons (a selected
+polygon is one whose vertices are all selected)
+You can set the polygon type to be double sided,
+outlined (not filled) absolute (the colour is not
+shaded; you cannot see the difference in this version
+of clayworks as it's only 16 colour) and smooth
+shaded which applies gouraud shading.
+
+The colour can be selected from a paltry 16 colour
+palette. 24bit colour will come soon, with the 32bit
+version.
+
+
+^UMenu commands^U
+^UMenu: File^U
+
+^UNew^U
+Creates a new object, destroys anything that's already
+in memory
+
+^ULoad^U
+Allows you to load in a variety of 3d formats, some of
+them are not implemented in this version (general rule:
+all the useful ones that you would want, sorry about
+that)
+
+^USave^U
+This will save the object, all formats listed are
+supported currently.
+
+^UAppend^U
+Loads in a new object and appends to the current one.
+
+^UExit^U
+Leave the program
+
+^UMenu: Select^U
+
+^USticky Mouse^U
+When drawing, selecting or whatever the program will
+recognise a click-drag as well as a click-move-click.
+experiment with it, see which feels most natural to you.
+
+^UShow all nodes^U
+Same function as the icon to the left of the screen.
+
+^USelect All^U
+Selects all the points in the object
+
+^UCopy^U
+Copy the current selection and offsets it slightly
+
+^UClear^U
+Clears the current selection (does not delete points)
+
+^UDelete^U
+Deletes the current selection (polygons are vertices)
+
+^UMerge^U
+This merges the selected vertices.
+
+^USubmenu: Flip^U
+Flips the selected vertices around an axis (X,Y or Z)
+
+^USubmenu: Polygons^U
+
+^UQuad divide^U
+Splits quads into 4 more quads
+
+^UTriangulate^U
+Turns anything that isn't a triangle into a triangle
+
+^USplit^U
+Only TWO vertices must be selected. This splits a
+polygon down these two vertices.
+
+
+^UFlip normals^U
+Flips the order of the vertices on a polygon,
+inverses it's normal, makes it points the other way.
+
+^UAdd^U
+Creates a new polygon from the selected vertex list.
+Can have weird results so use wisley.
+
+^UDelete^U
+Deletes all selected polygons but ^bnot^b the selected
+vertices.
+
+
+
+
+
+
+
+
+
+
+
+(c) Tim lewis 1998
+
+
+
+

@@ -1,0 +1,200 @@
+^UClayWorks Version 2.41^U
+
+This version of ClayWorks is 
+still shareware, however it
+will become commercial in
+the foreseeable future.
+
+For registration infomation,
+see the file 'register.txt'.
+
+^uSystem requirements^u
+A mouse, VGA PC, 286 with maths 
+copro for Claycp and a 386 or
+better for the program 
+'Viewer'.
+
+^uNEW THINGS IN THIS VERSION^u
+
+new to users of 2.20
+
+1.Each drawing tool has it's own 
+  tool bar that provides more 
+  functions for each mode.
+
+2. The grid function now provides
+   a choice of X and Y values,
+   sine wave and checkered.
+
+new to users of 2.32
+
+1.Nodes that are not selected 
+  can  be turned off to make 
+  viewing easier.
+
+2.RenderWare (.rwx) and 3dr 
+  (.geo) files can be saved but 
+  not loaded, 3dr because of an 
+  unfixed bug and RenderWare 
+  because it's too hard!
+
+3.The program previously named 
+  '3dsmlx' is now called 
+  'viewer' and  features on-line 
+  help, faster and flashier 
+  graphics. No support for Clay 
+  defined  palettes yet but 
+  that will come soon.
+
+4.3d bounding box and cursor.
+
+5.Holding down 'crtl' when 
+  selecting  allows you to 
+  select a subselection of the 
+  current selection (mouthfull 
+  but true) and holding down 
+  'alt' allows you to append 
+  the selection. Some bugs with 
+  applying attributes to textures 
+  when using these two features.
+
+6.Pallete editing in RGB and 
+  HSV supported.
+
+7.Little (but anoying) Bug with 
+  faulty window  selection 
+  sorted (finally!)
+
+8.Non-existant 'deform' function
+  (kept on intending to code it..)
+  that crashed the system has been
+  removed until I _do_ code it 8^)
+
+9.Now reports 'lack of memory' more
+  accuratly, before ClayWorks wouldn't
+  run even if you had 100k over the
+  recomended limit.
+
+10.More traps for errors:Lack of object
+   space is reported and dealt with,
+   previously objects mearly became
+   fragmented.
+
+11. On-Line help file.
+
+12.POV save option now works fine-
+   edit the camera view inside the
+   file and the lights to change 
+   position -User defined Lighting
+   and camera viewing are on their 
+   way in Clay.
+
+New to users of 2.37
+
+1. Various cosmetic changes -The 
+    'select modes' menu is now a 
+    dropdown menu and there
+    are various improvments in
+    apperance.
+
+2. New Functions: Triangulate,
+   QuadDivide (imperfect), 
+   smooth and flat shading
+   surface options (only shows
+   in the viewer program and in 
+   renderware).
+
+3. Some speed and memory 
+   optimiztions in the editor.
+
+4. Nodes can be switched off/turned
+   on by the 'Show all nodes' 
+   function in the 'Select' menu.
+
+5. Viewer Program has been improved-
+   Better use of colour and it's a
+   bit faster.
+
+6. Palette editor now accesable 
+   through the 'Window' menu as
+   well as double clicking on 
+   the palette box.
+
+7. Width of 3d objects is now 
+   more rational :
+   'width+height / 2'
+
+8. Can copy with 'alt-C' as well
+   as clicking both buttons when
+   moving a selection.
+
+New to users of 2.41
+
+1. 'Rotate' select mode now 
+   rotates around the 3d
+   cursor.
+
+2. New  Materials dialog box 
+   (replaces colour palette).
+
+3. 'add' polygon feature -
+   select some points (in the
+   correct order) and then
+   make a surface using them.
+
+4. Polygons can be 'outlined' 
+   instead of 'solid'.
+
+5. Lines and Text now show in 
+   polygon modes (polylines).
+
+6. Coordinates displayed.
+
+7. Rotated-form function now 
+   changed to 'extrude-path' 
+   which allows you to 'draw' 
+   with a selected shape with
+   the 2d constructs 'line',
+   'Circle' and in the future,
+   'Curve'. This function will
+   also allow you to stretch 
+   the selection as you
+   extrude it.
+
+^uKnown bugs(urgh)^u
+
+1.Don't use the undo function
+  when the 3d viewer is in
+  any polygon mode (hidden
+  lines, depth cued, light
+  sourced or gouraud) because
+  it will cock up a bit.
+  Silly little problem that I
+  will solve soon.
+
+
+2.The gouraud mode doesn't look 
+  like smooth shading -I haven't
+  completed the vertex smoothing
+  routine (probably means bugger
+  all but that's the reason).
+  It ^bis^b  gouraud shading though
+  it's just the colours, are all 
+  wrong...
+
+3.Quad divide is not yet perfected -
+  Objects may exhibit duplication of
+  nodes and lines.
+
+^UContact info^U
+
+Please contact me at this email
+address:
+
+Luther2000@aol.com 
+
+
+
+
+
+

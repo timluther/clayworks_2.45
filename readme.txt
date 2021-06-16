@@ -1,3 +1,7 @@
+2020: 
+uploaded this to Github for historical fun
+
+2000: 
 Claworks 2.45 source code information.
 
 This zip file contains the source code to version 2.45 of Claworks.

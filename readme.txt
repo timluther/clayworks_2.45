@@ -1,5 +1,7 @@
 2020: 
-uploaded this to Github for historical fun
+Uploaded this to Github for historical fun
+A live version of this can be found here:
+http://www.cw-3d.com/clay/downloads/cwDOS2.45/public/index.html
 
 2000: 
 Claworks 2.45 source code information.
